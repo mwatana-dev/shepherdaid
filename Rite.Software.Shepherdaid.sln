@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rite.Software.Shepherdaid.Web.Frontend", "Rite.Software.Shepherdaid.Web.Frontend\Rite.Software.Shepherdaid.Web.Frontend\Rite.Software.Shepherdaid.Web.Frontend.csproj", "{41768B95-F620-4E43-9195-E4B5DC84FF40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rite.Software.Shepherdaid.Roles", "Rite.Software.Shepherdaid.Roles\Rite.Software.Shepherdaid.Roles.csproj", "{E8FB72EA-3C96-4372-A89B-F1538C618C19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rite.Software.Shepherdaid.Enums", "Rite.Software.Shepherdaid.Enums\Rite.Software.Shepherdaid.Enums.csproj", "{1FD14BFD-4E1A-4F73-AF9C-0587FECAF90B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rite.Software.Shepherdaid.DAL", "Rite.Software.Shepherdaid.DAL\Rite.Software.Shepherdaid.DAL.csproj", "{13B57D70-115E-46FE-8370-038246DBC37C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rite.Software.Shepherdaid.BOL", "Rite.Software.Shepherdaid.BOL\Rite.Software.Shepherdaid.BOL.csproj", "{E7BC2C37-488D-4436-B92C-F21790F78404}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rite.Software.Shepherdaid.Utilities", "Rite.Software.Shepherdaid.Utilities\Rite.Software.Shepherdaid.Utilities.csproj", "{9985F9A4-B7EB-4372-8D97-3D27BC236448}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41768B95-F620-4E43-9195-E4B5DC84FF40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41768B95-F620-4E43-9195-E4B5DC84FF40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41768B95-F620-4E43-9195-E4B5DC84FF40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41768B95-F620-4E43-9195-E4B5DC84FF40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8FB72EA-3C96-4372-A89B-F1538C618C19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8FB72EA-3C96-4372-A89B-F1538C618C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8FB72EA-3C96-4372-A89B-F1538C618C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8FB72EA-3C96-4372-A89B-F1538C618C19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FD14BFD-4E1A-4F73-AF9C-0587FECAF90B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FD14BFD-4E1A-4F73-AF9C-0587FECAF90B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FD14BFD-4E1A-4F73-AF9C-0587FECAF90B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FD14BFD-4E1A-4F73-AF9C-0587FECAF90B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13B57D70-115E-46FE-8370-038246DBC37C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B57D70-115E-46FE-8370-038246DBC37C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B57D70-115E-46FE-8370-038246DBC37C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B57D70-115E-46FE-8370-038246DBC37C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7BC2C37-488D-4436-B92C-F21790F78404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7BC2C37-488D-4436-B92C-F21790F78404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7BC2C37-488D-4436-B92C-F21790F78404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7BC2C37-488D-4436-B92C-F21790F78404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9985F9A4-B7EB-4372-8D97-3D27BC236448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9985F9A4-B7EB-4372-8D97-3D27BC236448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9985F9A4-B7EB-4372-8D97-3D27BC236448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9985F9A4-B7EB-4372-8D97-3D27BC236448}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59EC45B2-2B83-4B3B-9B38-A4C0FFE028E1}
+	EndGlobalSection
+EndGlobal

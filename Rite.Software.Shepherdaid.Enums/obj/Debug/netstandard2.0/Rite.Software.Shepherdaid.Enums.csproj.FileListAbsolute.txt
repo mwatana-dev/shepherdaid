@@ -1,0 +1,9 @@
+D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.Enums\bin\Debug\netstandard2.0\Rite.Software.Shepherdaid.Enums.deps.json
+D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.Enums\bin\Debug\netstandard2.0\Rite.Software.Shepherdaid.Enums.dll
+D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.Enums\bin\Debug\netstandard2.0\Rite.Software.Shepherdaid.Enums.pdb
+D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.Enums\obj\Debug\netstandard2.0\Rite.Software.Shepherdaid.Enums.csproj.CoreCompileInputs.cache
+D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.Enums\obj\Debug\netstandard2.0\Rite.Software.Shepherdaid.Enums.AssemblyInfoInputs.cache
+D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.Enums\obj\Debug\netstandard2.0\Rite.Software.Shepherdaid.Enums.AssemblyInfo.cs
+D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.Enums\obj\Debug\netstandard2.0\Rite.Software.Shepherdaid.Enums.dll
+D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.Enums\obj\Debug\netstandard2.0\Rite.Software.Shepherdaid.Enums.pdb
+D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.Enums\obj\Debug\netstandard2.0\Rite.Software.Shepherdaid.Enums.csprojAssemblyReference.cache

@@ -1,0 +1,126 @@
+﻿@model IEnumerable<Rite.Software.Shepherdaid.DAL.RegistrationEntities.Member>
+
+@{
+    ViewBag.Title = "Members";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int cnt = 0;
+}
+
+
+<div class="row">
+
+    <div class="col-md-offset-1 col-md-10">
+
+        <div class="panel panel-default">
+            
+            <div class="panel-body">
+
+                <div class="col-md-12">
+                    @if (ViewBag.Success != null)
+                    {
+                        <div id="divSuccess" class="alert alert-success alert-dismissable">
+                            <span class="close" data-dismiss="alert" aria-label="close">&times;</span>
+                            <strong>Done!</strong> @ViewBag.Success
+                        </div>
+                    }
+                    @if (ViewBag.Error != null)
+                    {
+                        <div id="divError" class="alert alert-danger alert-dismissable">
+                            <span class="close" data-dismiss="alert" aria-label="close">&times;</span>
+                            <strong>Fail!</strong> @ViewBag.Error
+                        </div>
+                    }
+
+                    <div class="panel-group">
+                        <div class="col-md-offset-11 col-md-1 text-right">
+                            <a href="~/Members/Create" title="Create New"><span class="glyphicon glyphicon-plus"></span></a>
+                        </div>
+                    </div>
+
+                    @if (Model != null && Model.Count() > 0)
+                    {
+                        <div class="panel-group">
+                            <table id="ListTable" class="table table-bordered table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            No.
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.MemberNo)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.AppUser.FirstName)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.AppUser.MiddleName)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.AppUser.LastName)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.GenderType.Name)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.AppUser.PhoneNumber)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.StatusType.Name)
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+
+                                        <tr>
+                                            <td>
+                                                <span>@string.Format("{0}.", ++cnt)</span>
+                                            </td>
+                                            <td>
+                                                @Html.ActionLink(item.MemberNo, "Details", new { id = item.Id })
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.AppUser.FirstName)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.AppUser.MiddleName)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.AppUser.LastName)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.GenderType.Name)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.AppUser.PhoneNumber)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.StatusType.Name)
+                                            </td>
+                                        </tr>
+
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                    else
+                    {
+                        @*<h3 class="text-center">@ShepherdAid.Models.SABase.GetNoRecordMessage("member")</h3>*@
+                    }
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+@section Scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#ListTable').DataTable();
+        });
+    </script>
+}

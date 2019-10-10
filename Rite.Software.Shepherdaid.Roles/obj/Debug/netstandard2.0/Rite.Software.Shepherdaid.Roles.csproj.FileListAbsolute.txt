@@ -1,0 +1,9 @@
+D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.Roles\bin\Debug\netstandard2.0\Rite.Software.Shepherdaid.Roles.deps.json
+D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.Roles\bin\Debug\netstandard2.0\Rite.Software.Shepherdaid.Roles.dll
+D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.Roles\bin\Debug\netstandard2.0\Rite.Software.Shepherdaid.Roles.pdb
+D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.Roles\obj\Debug\netstandard2.0\Rite.Software.Shepherdaid.Roles.csproj.CoreCompileInputs.cache
+D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.Roles\obj\Debug\netstandard2.0\Rite.Software.Shepherdaid.Roles.AssemblyInfoInputs.cache
+D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.Roles\obj\Debug\netstandard2.0\Rite.Software.Shepherdaid.Roles.AssemblyInfo.cs
+D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.Roles\obj\Debug\netstandard2.0\Rite.Software.Shepherdaid.Roles.dll
+D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.Roles\obj\Debug\netstandard2.0\Rite.Software.Shepherdaid.Roles.pdb
+D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.Roles\obj\Debug\netstandard2.0\Rite.Software.Shepherdaid.Roles.csprojAssemblyReference.cache

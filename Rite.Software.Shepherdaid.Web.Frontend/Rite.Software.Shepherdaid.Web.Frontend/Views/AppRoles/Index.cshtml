@@ -1,0 +1,73 @@
+﻿@model IEnumerable<Rite.Software.Shepherdaid.DAL.SecurityEntities.AppRole>
+
+@{
+    ViewBag.Title = "Application Roles";
+    Layout = "~/Views/Shared/_Security.cshtml";
+    int cnt = 0;
+}
+
+<div class="row">
+    <div class="panel panel-primary">
+        <div class="panel-body">
+            <div class="col-md-12">
+
+                <p>
+                    @Html.ActionLink("Create New", "Create")
+                </p>
+
+                @if (Model != null && Model.Count() > 0)
+                {
+
+                    <table id="ListTable" class="table table-striped table-bordered">
+                        <thead>
+                            <tr>
+                                <th>
+                                    No.
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Name)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.RankType.Rank)
+                                </th>
+                                <th class="text-center">Action</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @string.Format("{0}.", ++cnt)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Name)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.RankType.Rank)
+                                    </td>
+                                    <th class="text-center">
+                                        @Html.ActionLink(" ", "Edit", new { id = item.Id }, new { @class = "glyphicon glyphicon-edit", @title = "edit" })
+                                    </th>
+                                </tr>
+                            }
+                        </tbody>
+
+                    </table>
+
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts{
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#ListTable').DataTable();
+        });
+    </script>
+}

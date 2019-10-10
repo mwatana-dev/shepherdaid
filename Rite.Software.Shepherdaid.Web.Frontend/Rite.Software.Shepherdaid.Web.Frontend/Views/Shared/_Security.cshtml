@@ -1,0 +1,54 @@
+﻿@using Rite.Software.Shepherdaid.Roles
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-2">
+        <ul>
+            @if (User.IsInRole(MySystemRole.ManageChurch))
+            {
+                <li>@Html.ActionLink("Manage Churches", "Index", "Churches")</li>
+            }
+            @if (User.IsInRole(MySystemRole.ManageDiocese))
+            {
+                <li>@Html.ActionLink("Manage Dioceses", "Index", "Diocese")</li>
+            }
+            @if (User.IsInRole(MySystemRole.ManageParishes))
+            {
+                <li>@Html.ActionLink("Manage Parishes", "Index", "Parishes")</li>
+            }
+            @if (User.IsInRole(MySystemRole.ManageGroups))
+            {
+                <li>@Html.ActionLink("Manage Groups", "Index", "ApplicationGroups")</li>
+            }
+            @if (User.IsInRole(MySystemRole.ManageRoles))
+            {
+                <li>@Html.ActionLink("Manage Roles", "Index", "AppRoles")</li>
+            }
+            @if (User.IsInRole(MySystemRole.ManageUsers))
+            {
+                <li>@Html.ActionLink("Manage Users", "Index", "AppUsers")</li>
+            }
+            @if (User.IsInRole(MySystemRole.SuperAdmin))
+            {
+            <li>@Html.ActionLink("Enable Users", "Disabled", "AppUsers")</li>
+        }
+
+        </ul>
+    </div>
+    <div class="col-md-10">
+        <div class="row breadcrumb-fixed">
+            @Html.Raw(MvcBreadCrumbs.BreadCrumb.Display())
+        </div>
+        @*main content area*@
+
+        <div class="row">
+            @section scripts{
+                @RenderSection("scripts", required: false)
+            }
+            @RenderBody()
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,3 @@
+﻿Unique field in code first
+screen tips for edit and delete icons
+filter by parish id saved in session at login
