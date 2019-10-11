@@ -59,3 +59,4 @@ D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.Util
 D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.Utilities\bin\EntityFramework.SqlServer.dll
 D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.Utilities\bin\EntityFramework.xml
 D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.Utilities\bin\EntityFramework.SqlServer.xml
+D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.Utilities\obj\Debug\Rite.Software.Shepherdaid.Utilities.csprojAssemblyReference.cache

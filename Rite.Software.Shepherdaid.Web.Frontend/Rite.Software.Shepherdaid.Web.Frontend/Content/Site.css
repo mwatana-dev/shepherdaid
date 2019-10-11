@@ -1,10 +1,12 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    /*margin-top:0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 20px;*/
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
+    margin-top:100px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -21,4 +23,8 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+.my-navbar{
+    height:60px !important;
+    background-color:#a7e4f9 !important;
 }
