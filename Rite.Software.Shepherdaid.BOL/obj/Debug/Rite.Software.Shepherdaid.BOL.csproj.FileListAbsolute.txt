@@ -70,7 +70,6 @@ D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.BOL\
 D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.BOL\bin\Microsoft.Owin.xml
 D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.BOL\bin\Microsoft.Owin.Security.xml
 D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.BOL\bin\Microsoft.Owin.Security.OAuth.xml
-D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.BOL\bin\System.Web.Mvc.xml
 D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.BOL\bin\EntityFramework.xml
 D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.BOL\bin\Microsoft.Owin.Security.Cookies.xml
 D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.BOL\bin\Newtonsoft.Json.xml
@@ -96,3 +95,4 @@ D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.BOL\
 D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.BOL\bin\roslyn\System.Net.Sockets.dll
 D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.BOL\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
 D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.BOL\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.BOL\bin\System.Web.Mvc.xml

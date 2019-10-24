@@ -7,9 +7,11 @@ namespace Rite.Software.Shepherdaid.Web.Frontend.Controllers
     {
         public ActionResult Index()
         {
+            string version = typeof(Controller).Assembly.GetName().Version.ToString() + "</h2>";
+            //return Content(version);
             return View();
         }
-
+        
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";

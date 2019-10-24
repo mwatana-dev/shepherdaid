@@ -102,7 +102,10 @@ namespace Rite.Software.Shepherdaid.Web.Frontend.Controllers
                 return RedirectToAction("Index");
             }
         }
-
+        public ActionResult Church()
+        {
+            return View();
+        }
         protected override void Dispose(bool disposing)
         {
             if (disposing)

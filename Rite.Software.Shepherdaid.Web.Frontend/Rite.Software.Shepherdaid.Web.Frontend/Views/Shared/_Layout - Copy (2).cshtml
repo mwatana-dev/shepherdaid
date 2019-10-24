@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Security</title>
+    <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css">
+
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar-light bg-primary mt-0 fixed-top">
+            <h3 class="text-center my-title-text">[NAME OF INSTITUTION]</h3>
+        </div>
+    </div>
+    <div class="container-fluid">
+
+        <div class="navbar navbar-expand-sm navbar-light bg-light mt-5 fixed-top my-navbar">
+            <div class="navbar offset-md-2 col-md-8">
+                <a href="#" class="navbar-brand">SA</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#collape-menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collape-menu">
+                    <ul class="navbar nav list-unstyled">
+                        
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Members</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="#setup-dropdown">
+                                Setup
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="setup-dropdown">
+                                <ul class="list-unstyled">
+                                    @if (User.IsInRole(Rite.Software.Shepherdaid.Roles.MySystemRole.ManageChurch))
+                                    {
+                                        <li class="dropdown-item">
+                                            @Html.ActionLink("Manage Churches", "Index", "Churches")                                                                                                                        @*<a href="~/Views/Churches/Index.cshtml" class="dropdown-item">Manage Churches</a>*@
+                                        </li>
+                                    }
+                                    @if (User.IsInRole(Rite.Software.Shepherdaid.Roles.MySystemRole.ManageDiocese))
+                                    {
+                                        <li class="dropdown-item">
+                                            @Html.ActionLink("Manage Dioceses", "Index", "Diocese")
+                                        </li>
+                                    }
+                                    @if (User.IsInRole(Rite.Software.Shepherdaid.Roles.MySystemRole.ManageParishes))
+                                    {
+                                        <li class="dropdown-item">
+                                            @Html.ActionLink("Manage Parishes", "Index", "Parishes")
+                                        </li>
+                                    }
+
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="#security-dropdown">
+                                Security
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="setup-dropdown">
+                                <ul class="list-unstyled">
+                                    @if (User.IsInRole(Rite.Software.Shepherdaid.Roles.MySystemRole.ManageGroups))
+                                    {
+                                        <li class="dropdown-item">
+                                            @Html.ActionLink("Manage Groups", "Index", "ApplicationGroups")
+                                        </li>
+                                    }
+                                    @if (User.IsInRole(Rite.Software.Shepherdaid.Roles.MySystemRole.ManageChurch))
+                                    {
+                                        <li class="dropdown-item">
+                                            @Html.ActionLink("Manage Roles", "Index", "AppRoles")
+                                        </li>
+                                    }
+                                    @if (User.IsInRole(Rite.Software.Shepherdaid.Roles.MySystemRole.ManageChurch))
+                                    {
+                                        <li class="dropdown-item">
+                                            @Html.ActionLink("Manage Users", "Index", "AppUsers")
+                                        </li>
+                                    }
+                                    @if (User.IsInRole(Rite.Software.Shepherdaid.Roles.MySystemRole.ManageChurch))
+                                    {
+                                        <li class="dropdown-item">
+                                        @Html.ActionLink("Enable Users", "Disabled", "AppUsers")</li>
+                                    }                                    
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container body-content">
+        <div class="breadcrumb-fixed d-none d-md-block">
+            @Html.Raw(MvcBreadCrumbs.BreadCrumb.DisplayRaw())
+        </div>
+        <br />
+        @RenderBody()
+        <hr />
+        <footer class="text-center">
+            <p>&copy; 2012 - @DateTime.Now.Year - Shepherd Aid</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+    <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="http://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
+</body>
+</html>

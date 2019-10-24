@@ -22,7 +22,6 @@ namespace Rite.Software.Shepherdaid.Web.Frontend.Controllers
             }
             catch (Exception ex)
             {
-
                 ViewBag.Error = ex.Message;
                 return View();
             }
@@ -39,7 +38,6 @@ namespace Rite.Software.Shepherdaid.Web.Frontend.Controllers
             }
             catch (Exception ex)
             {
-
                 ViewBag.Error = ex.Message;
                 return View();
             }

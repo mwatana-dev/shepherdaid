@@ -104,7 +104,7 @@ namespace Rite.Software.Shepherdaid.Web.Frontend.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Email,FirstName,MiddleName,LastName,EmailConfirmed,PasswordHash,SecurityStamp,PhoneNumber,PhoneNumberConfirmed,TwoFactorEnabled,LockoutEndDateUtc,LockoutEnabled,AccessFailedCount,UserName,ApplicationGroupId,RecordedBy,DateRecorded")] AppUser appUser)
+        public ActionResult Edit([Bind(Include = "Id,Email,FirstName,MiddleName,LastName,EmailConfirmed,PasswordHash,SecurityStamp,PhoneNumber,IsActive,PhoneNumberConfirmed,TwoFactorEnabled,LockoutEndDateUtc,LockoutEnabled,AccessFailedCount,UserName,ApplicationGroupId,RecordedBy,DateRecorded")] AppUser appUser)
         {
             try
             {

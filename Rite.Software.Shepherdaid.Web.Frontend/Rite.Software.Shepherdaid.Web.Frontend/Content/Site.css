@@ -2,13 +2,20 @@
     /*margin-top:0px !important;
     padding-top: 0px !important;
     padding-bottom: 20px;*/
+    background-color:#ffffff;
 }
-
+thead{
+    color:#ffffff;
+    background-color:#5568c0;
+}
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    margin-top:100px;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-top: 97px;
+    padding: 0px;
+    /*border-right: solid #a7e4f9 1px;
+    border-left: solid #a7e4f9 1px;*/
+    /*background-color: #dfecf9;*//*d2d8f7*/
+    height: 100%;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -24,7 +31,28 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.my-top-bar-fixed {
+    position: fixed !important;
+    width:82%;
+    z-index: 198;
+}
+.breadcrumb-fixed {
+    position: fixed;
+    width: auto;
+    top: 70px;
+    font-size:medium;
+    padding-left:25px;
+    background-color:transparent;
+    /*display: block;*/
+    z-index: 199;
+}
 .my-navbar{
     height:60px !important;
-    background-color:#a7e4f9 !important;
+    background-color:#ffffff !important;
+    border-bottom: 1px solid #1542ef;
+}
+.my-title-text{
+    background-color:transparent;
+    color:#ffffff;
 }

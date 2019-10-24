@@ -78,4 +78,3 @@ D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.DAL\
 D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.DAL\bin\roslyn\System.Net.Sockets.dll
 D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.DAL\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
 D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.DAL\bin\roslyn\System.Threading.Tasks.Extensions.dll
-D:\PROJECTS\SHEPHERDAID\Rite.Software.Shepherdaid\Rite.Software.Shepherdaid.DAL\obj\Debug\Rite.Software.Shepherdaid.DAL.csprojAssemblyReference.cache

@@ -1,7 +1,6 @@
 ﻿
 @{
     ViewBag.Title = "Group Roles";
-    Layout = "~/Views/Shared/_Security.cshtml";
 }
 
 <div class="row">
@@ -9,7 +8,6 @@
         @*add avialble rolse partial*@
         @{Html.RenderAction("AvalaibleRolesPartial");}
     </div>
-
 
     <div class="col-md-6">
         @*add assigned roles partial*@
